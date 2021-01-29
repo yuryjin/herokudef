@@ -1,0 +1,1 @@
+web: gunicorn timeman.wsgi:application --log-file -
